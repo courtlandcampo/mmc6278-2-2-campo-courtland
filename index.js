@@ -2,7 +2,7 @@
 
 function greet(name) {
     var name = prompt("What is your name?");
-    alert ("Hello," + name);
+    alert ("Hello, " + name);
     
     var userAge = prompt("How old are you?");
     var userAge = parseInt(userAge);
@@ -17,5 +17,4 @@ function greet(name) {
     } else {
         alert("Based on my calculations, you were born in " + yearN);
     }
-
 }
