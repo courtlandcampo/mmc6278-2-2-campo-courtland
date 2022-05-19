@@ -9,8 +9,13 @@ function greet(name) {
     
     var birthday = confirm("Have you celebrated your birthday already this year?");
 
-    if (birthday = true) {
-        var yearP = new Date().getFullYear() - userAge;
+    var yearP = new Date().getFullYear() - userAge;
+    var yearN = new Date().getFullYear() - userAge - 1;
+
+    if (birthday === true) {
         alert("Based on my calculations, you were born in " + yearP);
-    } 
+    } else {
+        alert("Based on my calculations, you were born in " + yearN);
+    }
+
 }
